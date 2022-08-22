@@ -1,0 +1,1052 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Player = game.Players.LocalPlayer
+local Window = OrionLib:MakeWindow({Name = "Main", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+Map = {}
+
+local Map = {
+    "Undertale Crazy Multiverse Timeline",
+    "❓ LUCKY BLOCKS Battlegrounds",
+    "UPdATE💀Ninja Tycoon (v4.2)"
+}
+
+OrionLib:MakeNotification({
+	Name = "Logged in!",
+	Content = "You are logged in at "..Player.Name..".",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+_G.Key = "God is Good"
+_G.WMap = "string"
+_G.KeyInput = "string"
+
+function MakeSansScript()
+    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Undertale Crazy Multiverse Timeline", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local ITEM = " "
+Plr = {}
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+    table.insert(Plr,v.Name) 
+end
+
+local function Fullbright()
+    	game.Lighting.Brightness = 2
+	game.Lighting.ClockTime = 14
+	game.Lighting.FogEnd = 100000
+	game.Lighting.GlobalShadows = false
+	game.Lighting.OutdoorAmbient = Color3.fromRGB(128, 128, 128)
+    end
+
+local function AMONG_US()
+    local mouse = game.Players.LocalPlayer:GetMouse()
+	local tool = Instance.new("Tool")
+	tool.RequiresHandle = false
+	tool.Name = "Equip to Click TP"
+	tool.TextureId = "rbxassetid://10438717560"
+	tool.Activated:connect(function()
+		local pos = mouse.Hit+Vector3.new(0,2.5,0)
+		pos = CFrame.new(pos.X,pos.Y,pos.Z)
+local Part = Instance.new("Part")
+Part.Name = "EEE"
+Part.Parent = game.Workspace
+Part.Size = Vector3.new(20,5,20)
+		Part.CFrame = pos
+	end)
+	tool.Parent = game.Players.LocalPlayer.Backpack
+    end
+
+item = {}
+for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
+    if v:IsA("Tool") then
+    table.insert(item,v.Name) 
+    end
+end
+local erer = false
+
+local function rejoin()
+    local Players = game.Players
+TeleportService = game:GetService("TeleportService")
+	if #Players:GetPlayers() <= 1 then
+		Players.LocalPlayer:Kick("\nRejoining...")
+		wait()
+		TeleportService:Teleport(game.PlaceId, Players.LocalPlayer)
+	else
+		TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, Players.LocalPlayer)
+	end
+    end
+
+local function chair()
+ firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").KingChair["King chair"].Seat, 0)
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").KingChair["King chair"].Seat, 1)
+    end
+
+local transparent = false
+function x(v)
+	if v then
+		for _,i in pairs(workspace:GetDescendants()) do
+			if i:IsA("BasePart") and not i.Parent:FindFirstChildOfClass('Humanoid') and not i.Parent.Parent:FindFirstChildOfClass('Humanoid') then
+				i.LocalTransparencyModifier = 0.5
+			end
+		end
+	else
+		for _,i in pairs(workspace:GetDescendants()) do
+			if i:IsA("BasePart") and not i.Parent:FindFirstChildOfClass('Humanoid') and not i.Parent.Parent:FindFirstChildOfClass('Humanoid') then
+				i.LocalTransparencyModifier = 0
+			end
+		end
+	end
+end
+
+local function EWRW()
+     firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.DusttrustPhase4["Rigged Morph Template"].Button, 0)
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.DusttrustPhase4["Rigged Morph Template"].Button, 1)
+     firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.BlackBeing["Rigged Morph Template"].Button, 0)
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.BlackBeing["Rigged Morph Template"].Button, 1)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.Virus404.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.Virus404.Head, 1)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.BillSans["Rigged Morph Template"].Button, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.BillSans["Rigged Morph Template"].Button, 1)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.Player["Rigged Morph Template"].Button, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.Player["Rigged Morph Template"].Button, 1)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.OmnipotentSans.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.OmnipotentSans.Head, 1)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.KingMultiverSaans.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.KingMultiverSaans.Head, 1)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.Error404sans.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.Error404sans.Head, 1)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.AlphaSans.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.AlphaSans.Head, 1)
+end
+
+local function OMG_SANS()
+ firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.DusttrustPhase4["Rigged Morph Template"].Button, 0)
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.DusttrustPhase4["Rigged Morph Template"].Button, 1)
+     firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.BlackBeing["Rigged Morph Template"].Button, 0)
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.BlackBeing["Rigged Morph Template"].Button, 1)
+    end
+
+function EquipWeapon(ToolSe)
+		if game.Players.LocalPlayer.Backpack:FindFirstChild(ToolSe) then
+			local tool = game.Players.LocalPlayer.Backpack:FindFirstChild(ToolSe)
+			wait(.4)
+			game.Players.LocalPlayer.Character.Humanoid:EquipTool(tool)
+		end
+end      
+
+local function Code()
+    local args = {
+    [1] = "thxfor10mvisit"
+    }
+
+game:GetService("ReplicatedStorage").Code:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "givecore"
+    }
+
+game:GetService("ReplicatedStorage").Code:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "givesoul"
+    }
+
+game:GetService("ReplicatedStorage").Code:InvokeServer(unpack(args))
+
+    end
+
+local function soul()
+       for i,v in pairs(game:GetService("Workspace").Soul:GetDescendants()) do
+            if v:IsA"TouchTransmitter" then
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0)
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1)
+            end
+        end 
+end
+local function Invisble()
+        for i,v in pairs(game:GetService("Workspace").pantaeieii:GetDescendants()) do
+           if v.Name == "Weld" then
+               v:Destroy()
+               end
+       end
+end
+local function Material()
+    for i,v in pairs(game.Players.LocalPlayer.Character.Chest:GetChildren()) do
+            v.Material = Enum.Material.ForceField
+end
+for i,v in pairs(game.Players.LocalPlayer.Character.Leg2:GetChildren()) do
+           v.Material = Enum.Material.ForceField
+end
+for i,v in pairs(game.Players.LocalPlayer.Character.Leg1:GetChildren()) do
+     v.Material = Enum.Material.ForceField
+end
+for i,v in pairs(game.Players.LocalPlayer.Character.HeadPart:GetChildren()) do
+     v.Material = Enum.Material.ForceField
+end
+for i,v in pairs(game.Players.LocalPlayer.Character.Arm1:GetChildren()) do
+     v.Material = Enum.Material.ForceField
+end
+for i,v in pairs(game.Players.LocalPlayer.Character.Arm2:GetChildren()) do
+     v.Material = Enum.Material.ForceField
+    end
+    end
+local function LovLVDust()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.Gamepass.DustSanslowlv.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.Gamepass.DustSanslowlv.Head, 1)
+end
+local function SnowdinDust()
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.Gamepass.SnowdinDustsans.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.Gamepass.SnowdinDustsans.Head, 1)
+end
+local function WaterFallDustSans()
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.Gamepass.WaterFallDustSans.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.Gamepass.WaterFallDustSans.Head, 1)
+end
+local function DustSansHotland()
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.Gamepass.DustSansHotland.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.Gamepass.DustSansHotland.Head, 1)
+end
+local function DustSansLv20()
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.Gamepass.DustSansLv20.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.Gamepass.DustSansLv20.Head, 1)
+end
+local function ShadownSans()
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.ShadowSansCorruptedSkin.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.ShadowSansCorruptedSkin.Head, 1)
+    end
+local function Alpha404Sans()
+        firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.Alpha404Sans.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.Alpha404Sans.Head, 1)
+    end
+local function AlphaCorrupted()
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.AlphaCorrupted.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.AlphaCorrupted.Head, 1)
+end
+local function LoadingSans()
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.LoadingSans.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").GamepassCharacter.LoadingSans.Head, 1)
+end
+local function VBSans()
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.VantaBlackSansDemonLOrd.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.VantaBlackSansDemonLOrd.Head, 1)
+    end
+local function touch()
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Obby.Obby2.Head, 0)
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Obby.Obby2.Head, 1)
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Obby.Head, 0)
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Obby.Head, 1)
+                
+end
+local function Frisk()
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.Frisk.Head, 0)
+end
+
+local function TPTOOL()
+local mouse = game.Players.LocalPlayer:GetMouse()
+	local tool = Instance.new("Tool")
+	tool.RequiresHandle = false
+	tool.Name = "Equip to Click TP"
+	tool.TextureId = "rbxassetid://10438717560"
+	tool.Activated:connect(function()
+		local pos = mouse.Hit+Vector3.new(0,2.5,0)
+		pos = CFrame.new(pos.X,pos.Y,pos.Z)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+	end)
+	tool.Parent = game.Players.LocalPlayer.Backpack
+end
+
+local function noclip()
+    local runservice = game:GetService("RunService")
+
+	local player = game:GetService("Players").LocalPlayer
+	runservice.Stepped:Connect(function()
+		for i,v in pairs(player.Character:GetDescendants()) do
+			if v:IsA("BasePart") then
+				v.CanCollide = false
+			end
+		end
+	end)
+end
+
+local function fly()
+    repeat wait() 
+	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+	local mouse = game.Players.LocalPlayer:GetMouse() 
+	repeat wait() until mouse
+	local plr = game.Players.LocalPlayer 
+	local torso = plr.Character.Head 
+	local flying = false
+	local deb = true 
+	local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+	local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+	local maxspeed = 400 
+	local speed = 5000 
+
+	function Fly() 
+		local bg = Instance.new("BodyGyro", torso) 
+		bg.P = 9e4 
+		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+		bg.cframe = torso.CFrame 
+		local bv = Instance.new("BodyVelocity", torso) 
+		bv.velocity = Vector3.new(0,0.1,0) 
+		bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+		repeat wait() 
+			plr.Character.Humanoid.PlatformStand = true 
+			if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+				speed = speed+.5+(speed/maxspeed) 
+				if speed > maxspeed then 
+					speed = maxspeed 
+				end 
+			elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+				speed = speed-1 
+				if speed < 0 then 
+					speed = 0 
+				end 
+			end 
+			if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+			elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+			else 
+				bv.velocity = Vector3.new(0,0.1,0) 
+			end 
+			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+		until not flying 
+		ctrl = {f = 0, b = 0, l = 0, r = 0} 
+		lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+		speed = 0 
+		bg:Destroy() 
+		bv:Destroy() 
+		plr.Character.Humanoid.PlatformStand = false 
+	end 
+	mouse.KeyDown:connect(function(key) 
+		if key:lower() == "e" then 
+			if flying then flying = false 
+			else 
+				flying = true 
+				Fly() 
+			end 
+		elseif key:lower() == "w" then 
+			ctrl.f = 1 
+		elseif key:lower() == "s" then 
+			ctrl.b = -1 
+		elseif key:lower() == "a" then 
+			ctrl.l = -1 
+		elseif key:lower() == "d" then 
+			ctrl.r = 1 
+		end 
+	end) 
+	mouse.KeyUp:connect(function(key) 
+		if key:lower() == "w" then 
+			ctrl.f = 0 
+		elseif key:lower() == "s" then 
+			ctrl.b = 0 
+		elseif key:lower() == "a" then 
+			ctrl.l = 0 
+		elseif key:lower() == "d" then 
+			ctrl.r = 0 
+		end 
+	end)
+	Fly()
+end
+local function Sans()
+  firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.ClassicSans.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.ClassicSans.Head, 1)
+end
+local function GODmode_Frisk()
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
+    wait(3.4)
+    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.Frisk.Head, 0)
+    end)
+end
+local function Godmode_Sans()
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
+    wait(3.4)
+     firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.ClassicSans.Head, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Character.ClassicSans.Head, 1)
+end)
+end
+local function Godmode_LSans()
+    Sans()
+    wait(.1)
+    LoadingSans()
+end
+
+local Tab = Window:MakeTab({
+	Name = "Tab 1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local TabE = Window:MakeTab({
+	Name = "GamePass Sans",
+	Icon = "rbxassetid://10438717560",
+	PremiumOnly = false
+})
+local Tab2 = Window:MakeTab({
+	Name = "Troll",
+	Icon = "rbxassetid://4515645493",
+	PremiumOnly = false
+})
+local Tab3 = Window:MakeTab({
+	Name = "Keybinds",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab4 = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4503342956",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Section"
+})
+
+OrionLib:MakeNotification({
+	Name = "Title!",
+	Content = "Enjoy",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+Tab:AddToggle({
+	Name = "LET ME SOLO HER",
+	Default = false,
+	Callback = function(Value)
+	    if Value then
+	        game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+	        else
+	             game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+	        end
+end
+})
+
+Tab:AddToggle({
+	Name = "SUPER AUTO FARM",
+	Default = false,
+	Callback = function(Value)
+
+		_G.R = Value
+		while _G.R do wait()
+pcall(function()
+local args = {
+    [1] = "ERROR"
+}
+
+game:GetService("ReplicatedStorage").ChangeName:FireServer(unpack(args))
+    soul()
+    touch()
+    Frisk()
+    		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2688.18213, 8547.60254, 5025.04541, 0.789525211, -3.43845953e-09, -0.613718092, 1.66602376e-08, 1, 1.56671582e-08, 0.613718092, -2.25943051e-08, 0.789525211)
+end)
+	end
+	end   
+	
+})
+
+Tab:AddButton({
+	Name = "Godmode Sans",
+	Callback = function()
+		   Godmode_Sans()
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "GOD Sans and 30% god mode",
+	Callback = function()
+		   EWRW()
+  	end    
+})
+Tab:AddButton({
+	Name = "Godmode Frisk",
+	Callback = function()
+		   GODmode_Frisk()
+  	end    
+})
+Tab:AddButton({
+	Name = "Godmode LoadingSans",
+	Callback = function()
+		   Godmode_LSans()
+  	end    
+})
+Tab:AddButton({
+	Name = "OMG SANS (30% you will god mode)",
+	Callback = function()
+		   OMG_SANS()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fly (e)",
+	Callback = function()
+		   fly()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Noclip",
+	Callback = function()
+		   noclip()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Teleport tool",
+	Callback = function()
+		   TPTOOL()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Invisble",
+	Callback = function()
+		   Invisble()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Set Material",
+	Callback = function()
+		   Material()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fullbright",
+	Callback = function(Value)
+        Fullbright()
+end
+	
+})
+
+Tab:AddToggle({
+	Name = "Enter Character Color",
+	Default = false,
+	Callback = function(Value)
+        erer = Value
+end
+	
+})
+
+Tab:AddColorpicker({
+	Name = "Character Colorpicker",
+	Default = Color3.fromRGB(0, 0, 0),
+	Callback = function(Value)
+       ere = Value
+       if erer == true then
+       for i,v in pairs(game.Players.LocalPlayer.Character.Chest:GetChildren()) do
+           v.Color = ere
+end
+for i,v in pairs(game.Players.LocalPlayer.Character.Leg2:GetChildren()) do
+          v.Color = ere
+end
+for i,v in pairs(game.Players.LocalPlayer.Character.Leg1:GetChildren()) do
+    v.Color = ere
+end
+for i,v in pairs(game.Players.LocalPlayer.Character.HeadPart:GetChildren()) do
+    v.Color = ere
+end
+for i,v in pairs(game.Players.LocalPlayer.Character.Arm1:GetChildren()) do
+    v.Color = ere
+end
+for i,v in pairs(game.Players.LocalPlayer.Character.Arm2:GetChildren()) do
+    v.Color = ere
+    end
+       end	  
+end
+})
+
+Tab:AddSlider({
+	Name = "Set your speed",
+	Min = 0,
+	Max = 200,
+	Default = 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Speed",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end    
+})
+
+Tab:AddLabel("Players")
+Tab:AddDropdown({
+	Name = "Item",
+	Default = "1",
+	Options = item,
+	Callback = function(Value)
+	    ITEM = Value
+	end    
+})
+Tab:AddToggle({
+	Name = "Auto equit",
+	Default = false,
+	Callback = function(Value)
+            EquipWeapon(ITEM)
+end
+	
+})
+Tab:AddDropdown({
+	Name = "เลือกผู้เล่น",
+	Default = "1",
+	Options = Plr,
+	Callback = function(Value)
+	    er = Value
+	end    
+})
+Tab:AddToggle({
+	Name = "Spectate player",
+	Default = false,
+	Callback = function(Value)
+         if Value then
+    _G.Spectate = true
+      spawn(function()
+                                        if _G.Spectate then
+        game.Workspace.Camera.CameraSubject = game.Players[er].Character.Humanoid
+                                        end
+      end)
+                                    else
+                                        
+                                        game.Workspace.Camera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+         end   
+             
+end
+	
+})
+Tab:AddToggle({
+	Name = "TP to player",
+	Default = false,
+	Callback = function(Value)
+
+		_G.R = Value
+		while _G.R do wait()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace[er].HumanoidRootPart.CFrame
+			    end
+	end   
+	
+})
+
+Tab:AddToggle({
+	Name = "Xray",
+	Default = false,
+	Callback = function(Value)
+if Value then
+transparent = true
+x(transparent)
+else 
+transparent = false
+x(transparent)
+end
+	end   
+	
+})
+
+Tab:AddButton({
+	Name = "Rejoin",
+	Callback = function()
+		rejoin()
+		end
+})
+
+Tab:AddTextbox({
+Name = "Set your name",
+	Default = "Name",
+	TextDisappear = true,
+	Callback = function(Value)
+        local args = {
+    [1] = Value
+}
+
+game:GetService("ReplicatedStorage").ChangeName:FireServer(unpack(args))
+OrionLib:MakeNotification({
+	Name = "Title!",
+	Content = "Now your name is: "..Value,
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+	end	
+})
+
+
+
+TabE:AddButton({
+	Name = "Admin Script",
+	Callback = function()
+		 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+TabE:AddLabel("กดปุ่มสองรอบถึงจะได้")
+TabE:AddButton({
+	Name = "ShadownSans",
+	Callback = function()
+		ShadownSans()
+		end
+})
+TabE:AddButton({
+	Name = "Alpha404Sans",
+	Callback = function()
+		Alpha404Sans()
+		end
+})
+TabE:AddButton({
+	Name = "AlphaCorrupted",
+	Callback = function()
+		AlphaCorrupted()
+		end
+})
+TabE:AddButton({
+	Name = "LoadingSans",
+	Callback = function()
+		LoadingSans()
+		end
+})
+TabE:AddButton({
+	Name = "VantaBlackSansDemonLOrd",
+	Callback = function()
+		VBSans()
+		end
+})
+TabE:AddLabel("Evolution Dust!Sans")
+TabE:AddButton({
+	Name = "LovLVDust",
+	Callback = function()
+		LovLVDust()
+		end
+})
+TabE:AddButton({
+	Name = "SnowdinDust",
+	Callback = function()
+		SnowdinDust()
+		end
+})
+TabE:AddButton({
+	Name = "WaterFallDustSans",
+	Callback = function()
+		WaterFallDustSans()
+		end
+})
+TabE:AddButton({
+	Name = "DustSansHotland",
+	Callback = function()
+		DustSansHotland()
+		end
+})
+TabE:AddButton({
+	Name = "DustSansLv20",
+	Callback = function()
+	    
+		DustSansLv20()
+		end
+})
+TabE:AddLabel("-----------")
+TabE:AddButton({
+	Name = "Reset Character",
+	Callback = function()
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+		end
+})
+Tab2:AddLabel("You need VantaBlackSansDemonLOrd then you can get this")
+Tab2:AddLabel("in gamepass sans tab don't for get to equit VantaBlack Trap")
+Tab2:AddToggle({
+	Name = "Spam VantaBlack Trap",
+	Default = false,
+	Callback = function(Value)
+	    _G.SPAMVT = Value
+	    while _G.SPAMVT do wait()
+game:GetService("Players").LocalPlayer.Character:FindFirstChild("VantaBlack Trap").LocalScript.RemoteEvent:FireServer()
+	end
+	end   
+	
+})
+Tab3:AddBind({
+	Name = "Reset Character",
+	Default = Enum.KeyCode.E,
+	Hold = false,
+	Callback = function()
+		print("E")
+	end    
+})
+
+OrionLib:Init()
+    end
+
+function MakeBloxScript()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Player = game.Players.LocalPlayer
+local Window = OrionLib:MakeWindow({Name = "❓ LUCKY BLOCKS Battlegrounds", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Logged in!",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Open Lucky blox",
+	Callback = function()
+      	for _ = 1,200 do
+game:GetService("ReplicatedStorage").SpawnRainbowBlock:FireServer()
+      	    end
+  	end    
+})
+end
+
+function MakeNinjaScript()
+       local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    local Window = OrionLib:MakeWindow({Name = "UPdATE💀Ninja Tycoon (v4.2)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+    Wtycoon = {}
+
+for i,v in pairs(game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons:GetChildren()) do
+    table.insert(Wtycoon,v.Name) 
+end
+
+    local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddToggle({
+	Name = "Full function auto Money",
+	Default = false,
+	Callback = function(Value)
+		_G.AutoFarm = Value
+		while _G.AutoFarm do wait()
+		        pcall(function()
+		                 for i,v8 in pairs(game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons:GetDescendants()) do
+	        if v8.Name == "Owner" then 
+	            if v8.Value == game.Players.LocalPlayer then
+	                  
+		     for i,v in pairs(game:GetService("Workspace").PartStorage:GetChildren()) do
+firetouchinterest(v, game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons[tostring(v8.Parent)].Essentials.PartCollector, 0)
+firetouchinterest(v, game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons[tostring(v8.Parent)].Essentials.PartCollector, 1)
+end
+	    for i,v in pairs(game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons:GetDescendants()) do
+	        if v.Name == "Clicker" then
+	        fireclickdetector(v.ClickDetector)
+	        end
+	    end
+        firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons[tostring(v8.Parent)].Essentials.Giver, 0)
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons[tostring(v8.Parent)].Essentials.Giver, 1)
+	     for i,v in pairs(game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons:GetDescendants()) do
+            if v:IsA("TouchTransmitter") and v.Parent.Name == "Giver" then
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0)
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1)
+            end
+	     end 
+	            end
+     	       end
+	       	        end
+    end)
+		        end
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Build Tycoon",
+	Default = false,
+	Callback = function(Value)
+		_G.Build = Value
+		while _G.Build do wait()
+		        pcall(function()
+		             for i,v8 in pairs(game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons:GetDescendants()) do
+                 if v8.Name == "Owner" then 
+	            if v8.Value == game.Players.LocalPlayer then
+	                 for i,v in pairs(game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons[tostring(v8.Parent)]:GetDescendants()) do
+	                           if v:IsA("TouchTransmitter") then
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0)
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1)
+	            end
+                 end
+    end
+  end 
+     end
+		        end)
+	            end
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Dash no cc",
+	Default = false,
+	Callback = function(Value)
+		_G.Dash = Value
+		while _G.Dash do wait()
+		     -- Decompiled with the Synapse X Luau decompiler.
+local l__LocalPlayer__1 = game.Players.LocalPlayer;
+local l__LocalPlayer__2 = game.Players.LocalPlayer;
+local l__UserInputService__3 = game:GetService("UserInputService");
+local l__mouse__4 = l__LocalPlayer__1:GetMouse();
+local v5 = Instance.new("Animation");
+v5.AnimationId = "http://www.roblox.com/asset/?id=4689478440";
+local u1 = false;
+local l__Humanoid__2 = l__LocalPlayer__1.Character.Humanoid;
+local u3 = l__LocalPlayer__2.Character or l__LocalPlayer__2.CharacterAddeed:Wait();
+function Dash(p1, p2)
+	if p2 then
+		return;
+	end;
+	if u1 == false then
+		u1 = true;
+		l__Humanoid__2:LoadAnimation(v5):Play();
+		local v6 = game.Workspace:WaitForChild(l__LocalPlayer__1.Name);
+		u3.HumanoidRootPart.Velocity = u3.HumanoidRootPart.CFrame.lookVector * 200;
+		local l__Sound__7 = script.Sound;
+		l__Sound__7.SoundId = "rbxassetid://4689460614";
+		l__Sound__7.Volume = 1;
+		l__Sound__7:Play();
+		local v8 = Instance.new("Trail", v6);
+		v8.Attachment0 = v6.Torso:FindFirstChildOfClass("Attachment");
+		v8.Attachment1 = v6.Head:FindFirstChildOfClass("Attachment");
+		v8.Lifetime = 0.5;
+		v8.MaxLength = 3;
+		v8.WidthScale = NumberSequence.new(0.8);
+		v8.FaceCamera = false;
+		wait(0.5);
+		local v9 = 0 - 0.1;
+		while true do
+			v8.Transparency = NumberSequence.new(v9);
+			wait();
+			if 0 <= 0.1 then
+				if v9 < 1 then
+
+				else
+					break;
+				end;
+			elseif 1 < v9 then
+
+			else
+				break;
+			end;
+			v9 = v9 + 0.1;		
+		end;
+		v8:remove();
+		wait(2);
+		u1 = false;
+	end;
+end;
+function dashrequest(p3, p4)
+	if p4 == Enum.UserInputState.Begin then
+		Dash();
+		return;
+	end;
+	if p4 == Enum.UserInputState.End then
+
+	end;
+end;
+local l__ContextActionService__10 = game:GetService("ContextActionService");
+l__ContextActionService__10:BindAction("Dashing", dashrequest, true, Enum.KeyCode.E, Enum.KeyCode.ButtonY);
+l__ContextActionService__10:SetPosition("Dashing", UDim2.new(0.72, -25, 0.2, -25));
+
+		     end
+	end    
+})
+Tab:AddButton({
+	Name = "Delete Barrier",
+	Callback = function()
+	          		for i,v in pairs(game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons:GetDescendants()) do
+            if v.Name == "Roof Barrier Jutsu" then
+                  for i,v8 in pairs(game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons:GetDescendants()) do
+	        if v.Name == "Owner" then 
+	            if v8.Value == game.Players.LocalPlayer then
+                    if v.Parent.Parent.Name ~= tostring[v8.Parent] then
+                for i,v2 in pairs(v:GetChildren()) do
+                    v2:Destroy()
+                end
+                    end
+            end
+                end
+                end
+            end
+	          		end  
+     for i,v in pairs(game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons:GetDescendants()) do
+     if v.Name == "Pipe" then
+           for i,v in pairs(game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons:GetDescendants()) do
+	        if v.Name == "Owner" then 
+	            if v.Value == game.Players.LocalPlayer then
+         if v.Parent.Parent.Parent.Parent.Name ~= tostring[v.Parent] then
+                    v:Destroy()
+         end
+	            end
+	        end
+           end
+                    end
+    end
+  	end    
+})
+Tab:AddToggle({
+	Name = "God Mode",
+	Default = false,
+	Callback = function(Value)
+		_G.Heal = Value
+		while _G.Heal do wait()
+		        pcall(function()
+		     for i,v in pairs(game:GetService("Workspace")["Zednov's Tycoon Kit"].Tycoons:GetDescendants()) do
+		    if v:IsA("TouchTransmitter") then
+		        if v.Parent.Name == "HealingPad" or v.Parent.Name == "Dimension" then
+		       firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0)
+                firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1)   
+		       end
+		        end
+		     end
+		     end)
+		end
+	        end
+})
+end
+local Tab = Window:MakeTab({
+	Name = "Logged in!",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddDropdown({
+	Name = "Map",
+	Default = "1",
+	Options = Map,
+	Callback = function(Value)
+		_G.WMap = Value
+	end    
+})
+
+Tab:AddTextbox({
+	Name = "Enter Key",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		_G.KeyInput = Value
+	end	  
+})
+
+Tab:AddButton({
+	Name = "Check Key",
+	Callback = function()
+	          		  if _G.WMap == "string" then
+  		    OrionLib:MakeNotification({
+	Name = "System",
+	Content = "Pls enter the map",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+elseif _G.KeyInput ~= _G.Key then
+      		    OrionLib:MakeNotification({
+	Name = "System",
+	Content = "Invalid key",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		elseif _G.KeyInput == _G.Key then
+      		    if _G.WMap == Map[1] then
+      		MakeSansScript()
+      		    elseif _G.WMap == Map[2] then
+  		    MakeBloxScript()
+  		     elseif _G.WMap == Map[3] then
+  		    MakeNinjaScript()
+  		          		end
+      		end
+  	end    
+})
