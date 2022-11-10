@@ -1,3 +1,2 @@
 --Support: synapse x , krnl
-_G.Key = "The_One_Piece_Is_Real"
-loadstring(game:HttpGet("https://niovatesthub.000webhostapp.com/THEONEPIECEISREAL"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/omgae/01/main/ALL%20MAP"))()
