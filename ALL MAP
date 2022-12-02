@@ -1,0 +1,4 @@
+
+setclipboard("https://raw.githubusercontent.com/omgae/01/main/ssaeae")
+wait(1)
+game.Players.LocalPlayer:Kick("pls get new script in https://raw.githubusercontent.com/omgae/01/main/ssaeae\nScript has been copied to your clipboard")
