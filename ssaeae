@@ -1,3 +1,1 @@
---Support: synapse x , krnl
---Undertale, Ninja Tycoon
-loadstring(game:HttpGet("https://raw.githubusercontent.com/omgae/01/main/NIovaHub"))()
+pcall(function()local request=syn and syn.request or http and http.request or http_request or fluxus and fluxus.request or getgenv().request or request local E, S;repeat task.wait()E, S = pcall(request,{Url='https://raw.githubusercontent.com/omgae/01/main/NIovaHub'});until E == true and S ~= nil loadstring(S.Body)(); O = true end);
