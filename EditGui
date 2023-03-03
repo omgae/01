@@ -241,7 +241,7 @@ Closebutton.Position = UDim2.new(0, 10, 0, 10) -- Sets position to top-left corn
 Closebutton.Parent = gui
 
 Closebutton.MouseButton1Click:Connect(function()
-Main.Visible = not Main.Visible
+Main.Visible = false
 end)
 
     MainCorner.CornerRadius = UDim.new(0, 4)
