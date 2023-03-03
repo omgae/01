@@ -238,7 +238,7 @@ local Closebutton = Instance.new("TextButton")
 Closebutton.Text = "Close / Open"
 Closebutton.Size = UDim2.new(0, 100, 0, 50)
 Closebutton.Position = UDim2.new(0, 10, 0, 10) -- Sets position to top-left corner
-Closebutton.Parent = gui
+Closebutton.Parent = ScreenGui
 
 Closebutton.MouseButton1Click:Connect(function()
 Main.Visible = false
