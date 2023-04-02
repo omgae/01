@@ -1,1 +1,3 @@
-123456
+local key = "123456"
+
+return key
