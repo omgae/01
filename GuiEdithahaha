@@ -692,12 +692,14 @@ TextButton.TextWrapped = true
 TextButton.MouseButton1Down:Connect(function()
     MainWindow.Visible = not MainWindow.Visible
 end)
-MainWindow.Visible.Changed:Connect(function()
+MainWindow.Changed:Connect(function(property)
+    if property == "Visible" then
    if MainWindow.Visible == true then
        TextButton.Text = "Close"
 elseif MainWindow.Visible == false then
        TextButton.Text = "Open"
-       end
+end
+   end
 end)
 
 	AddConnection(MinimizeBtn.MouseButton1Up, function()
